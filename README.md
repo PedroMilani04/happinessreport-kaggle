@@ -4,7 +4,7 @@ This project implements a **machine learning pipeline** to forecast the **World 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The goal is to predict how happy each country would be in 2020 based on their historical indicators, leveraging:
 
@@ -22,7 +22,7 @@ The goal is to predict how happy each country would be in 2020 based on their hi
 
 ---
 
-## ✅ Key Features
+## Key Features
 
 1. **Country-Specific Lag Features**  
    Lag-1 and lag-2 values for each feature were created using `groupby('Country')`, enabling the model to learn from historical trends.
@@ -39,7 +39,7 @@ The goal is to predict how happy each country would be in 2020 based on their hi
 ---
 
 
-## 📂 File Outputs
+## File Outputs
 
 - `2015_cleaned.csv` to `2019_cleaned.csv`: Cleaned data per year  
 - `happiness_combined.csv`: Combined dataset with lag features  
@@ -48,7 +48,7 @@ The goal is to predict how happy each country would be in 2020 based on their hi
 ---
 
 
-## 📊 Libraries Used
+## Libraries Used
 
 - `pandas`, `numpy`
 - `xgboost`
@@ -57,7 +57,7 @@ The goal is to predict how happy each country would be in 2020 based on their hi
 
 ---
 
-## 📚 Conclusion
+## Conclusion
 
 This project highlights how **lag-based feature engineering** and **gradient boosting** can be applied to time-aware forecasting of social indicators.  
 By transforming static yearly data into a time series format, we enable predictive models to capture national-level trends and produce realistic future scenarios.
